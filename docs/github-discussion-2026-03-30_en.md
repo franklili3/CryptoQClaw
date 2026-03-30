@@ -2,7 +2,47 @@
 
 ## Background
 
-As part of the CryptoClaw quantitative trading AI assistant project, we needed to build a high-quality mentor knowledge base. 25 YouTube videos from 5 core mentors (Andreas Clenow, Andrew Lo, Ernest Chan, Marcos López de Prado, Nassim Taleb) needed to be transformed from raw transcripts into structured Chinese-language analytical documents for our future RAG system.
+### Goal: Build 5 Quantitative Trading Mentor AI Agents
+
+CryptoClaw is more than a trading execution tool — we're building a **mentor-level AI Agent system**. The core idea: create a dedicated AI Agent for each quantitative trading master, deeply internalizing their investment philosophy, methodology, and practical experience.
+
+**What these 5 mentor Agents do:**
+
+1. **Strategy Review** — When a user submits a quant trading strategy, mentor Agents evaluate it from their specialized perspectives. For example:
+   - Ernest Chan checks for overfitting risks and backtesting methodology
+   - Marcos López de Prado reviews feature engineering for multiple testing bias
+   - Nassim Taleb evaluates tail risk exposure and fragility
+   - Andrew Lo analyzes strategy environment-dependency through Adaptive Markets Hypothesis
+   - Andreas Clenow assesses trend-following logic for simplicity and robustness
+
+2. **Strategy Generation** — Based on each mentor's methodological framework, proactively propose new quant strategy ideas. For example:
+   - Chan Agent suggests GenAI-based solutions for data scarcity
+   - López de Prado Agent proposes hierarchical clustering portfolio optimization
+   - Taleb Agent designs tail risk hedging strategies
+
+3. **Knowledge Consultation** — Users can directly ask mentors quant questions and receive authoritative answers grounded in their original works and lectures.
+
+### Why build a mentor knowledge base?
+
+Each mentor Agent's quality depends on its "depth of understanding." To make AI truly think and advise like a mentor, general training data alone is insufficient. We need:
+
+- **Mentor papers** (SSR academic papers) — rigorous theoretical frameworks and mathematical derivations
+- **Mentor lectures/interview transcripts** (YouTube videos) — practical experience, intuitive judgment, case studies — content that rarely appears in papers
+- **Structured analysis** — transforming raw materials into knowledge units that AI can efficiently retrieve and cite
+
+### Why these 5 mentors?
+
+| Mentor | Core Expertise | Agent Value |
+|--------|---------------|-------------|
+| Ernest Chan | Quant strategy development, backtesting science, ML | Practical strategy review, overfitting detection |
+| Marcos López de Prado | Financial ML, portfolio optimization | Feature engineering review, ML framework guidance |
+| Nassim Taleb | Risk management, tail risk, antifragility | Risk exposure assessment, extreme scenario analysis |
+| Andrew Lo | Adaptive Markets Hypothesis, financial evolution | Market regime identification, strategy adaptability |
+| Andreas Clenow | Trend following, momentum strategies, CTA | Trend strategy design, simplicity review |
+
+### Today's specific task
+
+Building the mentor video transcript knowledge base: 25 YouTube videos from 5 mentors, transforming raw transcripts into structured Chinese-language analytical documents for our RAG system — the core knowledge source for mentor Agents.
 
 ## Decision Process
 
