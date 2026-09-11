@@ -4,7 +4,7 @@
 
 ### 目标：构建 5 位量化投资导师 AI Agent
 
-CryptoClaw 不仅仅是一个量化交易执行工具——我们正在构建一套**导师级 AI Agent 系统**。核心思路是：为每位量化投资大师创建一个独立的 AI Agent，每个 Agent 深度内化了对应导师的投资哲学、方法论和实战经验。
+CryptoQClaw 不仅仅是一个量化交易执行工具——我们正在构建一套**导师级 AI Agent 系统**。核心思路是：为每位量化投资大师创建一个独立的 AI Agent，每个 Agent 深度内化了对应导师的投资哲学、方法论和实战经验。
 
 **这 5 个导师 Agent 的职责：**
 
@@ -131,5 +131,5 @@ CryptoClaw 不仅仅是一个量化交易执行工具——我们正在构建一
 ---
 
 *开发日志：#BuildInPublic Day 4*
-*仓库：github.com/franklili3/CryptoClaw*
+*仓库：github.com/franklili3/CryptoQClaw*
 *关注：@cryptoclaw88*

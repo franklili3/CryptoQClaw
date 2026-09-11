@@ -4,7 +4,7 @@
 
 ### Goal: Build 5 Quantitative Trading Mentor AI Agents
 
-CryptoClaw is more than a trading execution tool — we're building a **mentor-level AI Agent system**. The core idea: create a dedicated AI Agent for each quantitative trading master, deeply internalizing their investment philosophy, methodology, and practical experience.
+CryptoQClaw is more than a trading execution tool — we're building a **mentor-level AI Agent system**. The core idea: create a dedicated AI Agent for each quantitative trading master, deeply internalizing their investment philosophy, methodology, and practical experience.
 
 **What these 5 mentor Agents do:**
 
@@ -131,5 +131,5 @@ Building the mentor video transcript knowledge base: 25 YouTube videos from 5 me
 ---
 
 *Dev Log: #BuildInPublic Day 4*
-*Repo: github.com/franklili3/CryptoClaw*
+*Repo: github.com/franklili3/CryptoQClaw*
 *Follow: @cryptoclaw88*
